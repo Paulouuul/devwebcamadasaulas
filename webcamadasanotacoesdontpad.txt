@@ -1,0 +1,38 @@
+Paradigmas de programação
+
+- Programação procedural
+- Programação estruturada
+- Programação orientada a objetos (Ex.: Java, C++, C#, Lua, ...)
+- Programação orientada a aspectos (Ex.: AspectJ)
+- Programação multiparadigma (Ex.: Python, JS, Groove, Ruby, ...)
+
+Características de Java
+
+- Orientada a objetos (mas não é 100% OO)
+	- Suporta tipos primitivos (int, float, long, double, char, boolean, ...)
+	- Não suporta herança múltipla entre classes
+
+- Multiplataforma
+
+Orientação a Objetos
+
+- Herança
+	- Mecanismo que possibilita a subtipos aproveitarem propriedades definidas em um supertipo.
+		- Não existe herança seletiva (escolher o que herdar).
+- Polimorfismo
+	- Capacidade de um objeto implementar diferentes comportamentos para um mesmo método.
+- Encapsulamento
+	- Capacidade de um objeto de restringir o acesso a determinadas propriedades.
+
+Abstrações do modelo OO
+
+- Classe
+	- Abstração que representa coisas do mundo real que possuem propriedades comuns;
+	- Molde para objetos.
+- Objeto
+	- Instância (exemplar, ocorrência) de uma classe.
+		- Ex.: Clínio, Laura e Leandro são instâncias (objetos) da classe Aluno.
+
+- Classe abstrata
+	- Classe que não pode ser instanciada;
+	- Se uma classe possui pelo menos um método abstrato, ela deve ser declarada como abstrata. Porém, uma classe não precisa ter métodos abstratos para ser declarada como abstrata; basta que não faça sentido instanciá-la.
