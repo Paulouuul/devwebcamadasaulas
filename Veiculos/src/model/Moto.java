@@ -4,12 +4,12 @@ public class Moto extends Veiculo{
     @Override
     public String acelerar() {
 
-        return null;
+        return "Acelerando a moto";
     }
 
     @Override
     public String frear() {
 
-        return null;
+        return "Freando moto";
     }
 }

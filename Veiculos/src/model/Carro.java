@@ -1,16 +1,18 @@
 package model;
 
 public class Carro extends Veiculo{
-    @Override
     public String acelerar() {
 
-        return null;
+        return "Acelerando o carro";
     }
 
-    @Override
     public String frear() {
 
-        return null;
+        return "Freando o carro";
     }
+
+//    public String acorda(){
+//        return "Acorda vc ai atras";
+//    }
 }
 
