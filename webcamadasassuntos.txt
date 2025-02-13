@@ -1,0 +1,49 @@
+Tecnologias para Desenvolvimento Web em Camadas com Java e Spring Boot
+
+1. Camada de Apresentação (Front-end)
+   - Thymeleaf
+   - React, Angular, Vue.js (JavaScript Frameworks)
+   - Spring MVC
+   - RESTful APIs
+
+2. Camada de Lógica de Negócios (Back-end)
+   - Spring Boot
+   - Spring Core (Injeção de Dependências)
+   - Spring Service
+   - Spring Transaction Management
+   - RestTemplate / WebClient (Integração com APIs Externas)
+
+3. Camada de Dados
+   - Spring Data JPA
+   - Hibernate (ORM)
+   - Spring JDBC
+   - Bancos de Dados: MySQL, PostgreSQL, Oracle, H2, MongoDB
+   - Flyway / Liquibase (Migrações de Banco de Dados)
+
+4. Camada de Segurança
+   - Spring Security
+   - BCrypt (Criptografia)
+   - Proteção contra CSRF, XSS, SQL Injection
+
+5. Camada de Serviços
+   - RESTful APIs (Spring Web)
+   - GraphQL (GraphQL Java)
+   - Spring Cloud (Microserviços, Eureka, Ribbon, Gateway)
+
+6. Camada de Infraestrutura
+   - Docker (Containerização)
+   - Kubernetes (Orquestração de Containers)
+   - AWS, Google Cloud, Azure (Cloud Providers)
+   - Jenkins, GitLab CI, GitHub Actions (CI/CD)
+
+7. Camada de Testes
+   - JUnit (Testes Unitários)
+   - Mockito (Mocks)
+   - Spring Boot Test (Testes de Integração)
+   - Testcontainers (Testes com Bancos de Dados Reais)
+
+8. Outras Ferramentas e Bibliotecas
+   - Lombok (Redução de Código Boilerplate)
+   - Swagger / OpenAPI (Documentação de APIs)
+   - Logback / SLF4J (Logging)
+   - Actuator (Monitoramento de Aplicações)
