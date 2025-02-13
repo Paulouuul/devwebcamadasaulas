@@ -1,4 +1,9 @@
 package model;
 
-public class Veiculo {
-}
+public abstract class Veiculo {
+
+    public abstract void  acelerar();
+    public abstract void  frear();
+
+    }
+
