@@ -2,8 +2,8 @@ package model;
 
 public abstract class Veiculo {
 
-    public abstract void  acelerar();
-    public abstract void  frear();
+    public abstract String  acelerar();
+    public abstract String  frear();
 
     }
 

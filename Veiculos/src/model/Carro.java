@@ -2,12 +2,15 @@ package model;
 
 public class Carro extends Veiculo{
     @Override
-    public void acelerar() {
+    public String acelerar() {
 
+        return null;
     }
 
     @Override
-    public void frear() {
+    public String frear() {
 
+        return null;
     }
 }
+
