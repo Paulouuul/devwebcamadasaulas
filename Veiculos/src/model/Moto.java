@@ -1,6 +1,6 @@
 package model;
 
-public class Moto extends Veiculo{
+public class Moto implements Veiculo{
     @Override
     public String acelerar() {
 
