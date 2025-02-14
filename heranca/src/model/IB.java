@@ -1,4 +1,5 @@
 package model;
 
-public interface IB {
+public interface IB extends IA{
+
 }
