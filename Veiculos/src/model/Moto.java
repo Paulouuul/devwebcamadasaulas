@@ -1,13 +1,13 @@
 package model;
 
 public class Moto implements Veiculo{
-    @Override
+    // @Override
     public String acelerar() {
 
         return "Acelerando a moto";
     }
 
-    @Override
+    // @Override
     public String frear() {
 
         return "Freando moto";
