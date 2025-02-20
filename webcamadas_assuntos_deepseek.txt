@@ -1,4 +1,4 @@
-Tecnologias para Desenvolvimento Web em Camadas com Java e Spring Boot\
+Tecnologias para Desenvolvimento Web em Camadas com Java e Spring Boot
 
 1. Camada de Apresentação (Front-end)
    - Thymeleaf
