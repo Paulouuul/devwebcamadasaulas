@@ -1,6 +1,9 @@
 package model;
 
+
+
 public class Moto implements Veiculo{
+    String nome;
     // @Override
     public String acelerar() {
 
@@ -12,4 +15,5 @@ public class Moto implements Veiculo{
 
         return "Freando moto";
     }
+
 }
