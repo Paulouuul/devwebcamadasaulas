@@ -8,7 +8,7 @@ public class D extends A {
     protected int at6;
 
     public void at7(){
-        A a = new A().at2;
+//        A a = new A().at2;
 
     }
 }

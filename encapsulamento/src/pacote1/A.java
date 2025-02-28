@@ -8,6 +8,6 @@ public class A {
     protected int at2;
 
     public void mt1(){
-        int da = new D().at2;
+        int da =  new D().at2;
     }
 }
