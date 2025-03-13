@@ -8,6 +8,7 @@ public class Barbie extends Boneco{
         super(corDeCabeloBoneco, nomeBoneco);
     }
 
+
     @Override
     public void falar() {
         System.out.printf("Olá, sou a Barbie. A cor do meu cabelo é %s.%n", corDeCabelo);
