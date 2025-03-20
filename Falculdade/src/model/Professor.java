@@ -42,7 +42,7 @@ public class Professor extends Pessoa {
         this.carga_horaria = carga_horaria;
     }
 
-    public void addTurma(Turma turma) {
+    public void addTurma(Turma turma){
         if (turma != null && !this.turmas.contains(turma)) {
             this.turmas.add(turma);
         }
