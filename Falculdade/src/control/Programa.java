@@ -22,7 +22,7 @@ public class Programa {
         List<Turma> turmas = new ArrayList<>();
         List<Disciplina> disciplinas = new ArrayList<>();
 
-        // Cadastro de múltiplos alunos
+//      Cadastro de múltiplos alunos
         System.out.print("Quantos alunos deseja cadastrar? ");
         int qtdAlunos = Integer.parseInt(scanner.nextLine());
         for (int i = 0; i < qtdAlunos; i++) {
@@ -125,7 +125,7 @@ public class Programa {
         int qtdAlunosTurma = Integer.parseInt(scanner.nextLine());
         for (int i = 0; i < qtdAlunosTurma; i++) {
             System.out.println("Escolha um Aluno:");
-            for (int j = 0; j < alunos.size(); j++) {
+             for (int j = 0; j < alunos.size(); j++) {
                 System.out.println((j + 1) + " - " + alunos.get(j).getNome());
             }
             alunosTurma.add(alunos.get(Integer.parseInt(scanner.nextLine()) - 1));

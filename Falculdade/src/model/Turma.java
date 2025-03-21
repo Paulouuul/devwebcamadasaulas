@@ -15,7 +15,6 @@ public class Turma {
     private LocalTime horario;
     private String sala;
 
-    // Construtor
     public Turma(Professor professor, Disciplina disciplina, List<Aluno> alunos, String codigo, String semestre,
                  DayOfWeek dia, LocalTime horario, String sala) {
         this.professor = professor;
@@ -28,7 +27,6 @@ public class Turma {
         this.sala = sala;
     }
 
-    // Getters e Setters
     public Professor getProfessor() {
         return professor;
     }
@@ -107,7 +105,6 @@ public class Turma {
     }
 
 
-    // Método para exibir todas as informações da turma
     public void exibirInformacoes() {
         System.out.println("### Informações da Turma: " + codigo + " ###");
         System.out.println("Código: " + codigo);

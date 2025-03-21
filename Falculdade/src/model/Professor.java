@@ -9,9 +9,8 @@ public class Professor extends Pessoa {
     private String titulacao;
     private Duration carga_horaria;
 
-    // Construtor
     public Professor(String matricula, String nome, List<Turma> turmas, String titulacao, Duration carga_horaria) {
-        super(matricula, nome);  // Chama o construtor da classe Pessoa
+        super(matricula, nome);
         this.turmas = turmas;
         this.titulacao = titulacao;
         this.carga_horaria = carga_horaria;
